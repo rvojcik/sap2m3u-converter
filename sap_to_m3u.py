@@ -269,7 +269,7 @@ class SAPCollector:
 
 def main():
     parser = argparse.ArgumentParser(description='Collect SAP announcements and generate M3U playlist')
-    parser.add_argument('-d', '--duration', type=int, default=60, 
+    parser.add_argument('-d', '--duration', type=int, default=15, 
                        help='Duration to listen for announcements (seconds)')
     parser.add_argument('-o', '--output', default='sap_streams.m3u',
                        help='Output M3U file name')
